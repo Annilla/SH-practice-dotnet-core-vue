@@ -22,14 +22,14 @@ const router = new VueRouter({
           { path: 'foo',
             component: Foo,
             beforeEnter: (to, from, next) => {
-              debugger;
+              // debugger;
               next();
             },
           },
           { path: 'bar/:id',
             component: Bar,
             beforeEnter: (to, from, next) => {
-              debugger;
+              // debugger;
               next();
             },
           },
